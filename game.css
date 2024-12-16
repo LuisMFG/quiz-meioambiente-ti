@@ -1,14 +1,14 @@
 body {
-    color: #fff;
+    color: black;
 }
 
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
     width: 100%;
-    border-radius: 4px;
-    background: rgb(18, 93, 255);
-    font-size: 3rem;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgb(100, 149, 237) 0%, rgb(70, 130, 180) 100%);
+    font-size: 5rem;
     min-width: 80rem;
 }
 
@@ -26,6 +26,7 @@ body {
 
 .choice-text {
     padding: 2rem;
+    color: white;
     width: 100%;
 }
 
@@ -37,7 +38,7 @@ body {
     background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
 }
 
-/* Heads up Display */
+
 #hud {
     display: flex;
     justify-content: space-between;
@@ -55,7 +56,7 @@ body {
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid rgb(11,223,36);
+    border: 0.2rem solid rgb(0, 129, 15);
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
@@ -63,7 +64,7 @@ body {
 
 #progressBarFull {
     height: 100%;
-    background: rgb(11,223,36);
+    background: rgb(0, 129, 15);
     width: 0%;
 }
 
